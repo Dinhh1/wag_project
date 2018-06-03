@@ -68,8 +68,6 @@ static CGFloat kEstimatedRowHeight = 70.0f;
 }
 
 - (void)setupNavigationBar {
-    //    self.navigationController.navigationBar.titleTextAttributes = @{ NSForegroundColorAttributeName: [UIColor colorWithRed:244.0/255.0 green:128.0/255.0 blue:36.0/255.0 alpha:1.0] };
-    //    self.title = NSLocalizedString(@"users.navigation.title", nil);
     UIImage *image = [UIImage imageNamed:NSLocalizedString(@"image.brand", nil)];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
     imageView.contentMode = UIViewContentModeScaleAspectFit;
