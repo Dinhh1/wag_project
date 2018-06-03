@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  wag-project
+
+  Created by Dinh Ho on 6/2/18.
+  Copyright © 2018 DInh Ho. All rights reserved.
+*/
+
+// UsersTableViewController
+"users.navigation.title" = "StackOverflow";
+
+// empty data messages
+"empty.title.error" = "Something went wrong";
+"empty.title.nodata" = "No Data";
+"empty.description.error" = "Please check your internet connection and try again";
+"empty.description.nodata" = "No Users were Found";
+"empty.button.title" = "Reload";
+
+//users table cell
+"users.tablecell.reputationformat" = "Reputation: %@";
+
+// images
+"image.brand" = "stackoverflow_brand";
+"image.placeholder" = "place_holder";
+"image.error" = "error_circle";

@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F418158EDC39F8C3BF745A8 /* libPods-wag-project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DAE1CFEE296945A5ECE819 /* libPods-wag-project.a */; };
+		D957497620C2A7430048FE14 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D957497520C2A7430048FE14 /* Localizable.strings */; };
+		D9B33B1920C1FEB500EF947F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B33B1820C1FEB500EF947F /* AppDelegate.m */; };
+		D9B33B1F20C1FEB500EF947F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B33B1D20C1FEB500EF947F /* Main.storyboard */; };
+		D9B33B2120C1FEB600EF947F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B33B2020C1FEB600EF947F /* Assets.xcassets */; };
+		D9B33B2420C1FEB600EF947F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B33B2220C1FEB600EF947F /* LaunchScreen.storyboard */; };
+		D9B33B2720C1FEB600EF947F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B33B2620C1FEB600EF947F /* main.m */; };
+		D9B33B3120C20BF700EF947F /* UsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B33B3020C20BF700EF947F /* UsersTableViewController.m */; };
+		D9B33B3620C20DAE00EF947F /* BadgeCount.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B33B3520C20DAE00EF947F /* BadgeCount.m */; };
+		D9B33B3920C212CB00EF947F /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B33B3820C212CB00EF947F /* UserInfo.m */; };
+		D9B33B3D20C21B6D00EF947F /* StackOverflowAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B33B3C20C21B6D00EF947F /* StackOverflowAPIClient.m */; };
+		D9B33B4420C2290100EF947F /* UserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B33B4320C2290100EF947F /* UserInfoTableViewCell.m */; };
+		D9B33B4620C2291E00EF947F /* UserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B33B4520C2291E00EF947F /* UserInfoTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27DAE1CFEE296945A5ECE819 /* libPods-wag-project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wag-project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		903884C4CE4AB84BBE45F9BD /* Pods-wag-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wag-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-wag-project/Pods-wag-project.release.xcconfig"; sourceTree = "<group>"; };
+		BA9D90E74F66F29ABF36A2CF /* Pods-wag-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wag-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wag-project/Pods-wag-project.debug.xcconfig"; sourceTree = "<group>"; };
+		D957497520C2A7430048FE14 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D9B33B1420C1FEB500EF947F /* wag-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wag-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B33B1720C1FEB500EF947F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9B33B1820C1FEB500EF947F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9B33B1E20C1FEB500EF947F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9B33B2020C1FEB600EF947F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9B33B2320C1FEB600EF947F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9B33B2520C1FEB600EF947F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B33B2620C1FEB600EF947F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9B33B2F20C20BF700EF947F /* UsersTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsersTableViewController.h; sourceTree = "<group>"; };
+		D9B33B3020C20BF700EF947F /* UsersTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewController.m; sourceTree = "<group>"; };
+		D9B33B3420C20DAE00EF947F /* BadgeCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadgeCount.h; sourceTree = "<group>"; };
+		D9B33B3520C20DAE00EF947F /* BadgeCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadgeCount.m; sourceTree = "<group>"; };
+		D9B33B3720C212CB00EF947F /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		D9B33B3820C212CB00EF947F /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		D9B33B3B20C21B6D00EF947F /* StackOverflowAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackOverflowAPIClient.h; sourceTree = "<group>"; };
+		D9B33B3C20C21B6D00EF947F /* StackOverflowAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOverflowAPIClient.m; sourceTree = "<group>"; };
+		D9B33B4220C2290100EF947F /* UserInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewCell.h; sourceTree = "<group>"; };
+		D9B33B4320C2290100EF947F /* UserInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewCell.m; sourceTree = "<group>"; };
+		D9B33B4520C2291E00EF947F /* UserInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B33B1120C1FEB500EF947F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F418158EDC39F8C3BF745A8 /* libPods-wag-project.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3525378CFA3F9ECE0F40795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA9D90E74F66F29ABF36A2CF /* Pods-wag-project.debug.xcconfig */,
+				903884C4CE4AB84BBE45F9BD /* Pods-wag-project.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9B33B0B20C1FEB400EF947F = {
+			isa = PBXGroup;
+			children = (
+				D9B33B1620C1FEB500EF947F /* wag-project */,
+				D9B33B1520C1FEB500EF947F /* Products */,
+				C3525378CFA3F9ECE0F40795 /* Pods */,
+				F8BE9048B85F1CBB3D14E0A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B33B1520C1FEB500EF947F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B33B1420C1FEB500EF947F /* wag-project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B33B1620C1FEB500EF947F /* wag-project */ = {
+			isa = PBXGroup;
+			children = (
+				D9B33B4020C228CC00EF947F /* Views */,
+				D9B33B3A20C21B4300EF947F /* Services */,
+				D9B33B2E20C209E800EF947F /* ViewControllers */,
+				D9B33B2D20C209E300EF947F /* Models */,
+				D9B33B1720C1FEB500EF947F /* AppDelegate.h */,
+				D9B33B1820C1FEB500EF947F /* AppDelegate.m */,
+				D9B33B1D20C1FEB500EF947F /* Main.storyboard */,
+				D9B33B2020C1FEB600EF947F /* Assets.xcassets */,
+				D9B33B2220C1FEB600EF947F /* LaunchScreen.storyboard */,
+				D9B33B2520C1FEB600EF947F /* Info.plist */,
+				D9B33B2620C1FEB600EF947F /* main.m */,
+				D957497520C2A7430048FE14 /* Localizable.strings */,
+			);
+			path = "wag-project";
+			sourceTree = "<group>";
+		};
+		D9B33B2D20C209E300EF947F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9B33B3420C20DAE00EF947F /* BadgeCount.h */,
+				D9B33B3520C20DAE00EF947F /* BadgeCount.m */,
+				D9B33B3720C212CB00EF947F /* UserInfo.h */,
+				D9B33B3820C212CB00EF947F /* UserInfo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D9B33B2E20C209E800EF947F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9B33B2F20C20BF700EF947F /* UsersTableViewController.h */,
+				D9B33B3020C20BF700EF947F /* UsersTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D9B33B3A20C21B4300EF947F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D9B33B3B20C21B6D00EF947F /* StackOverflowAPIClient.h */,
+				D9B33B3C20C21B6D00EF947F /* StackOverflowAPIClient.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D9B33B4020C228CC00EF947F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9B33B4120C228D400EF947F /* TableCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9B33B4120C228D400EF947F /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				D9B33B4220C2290100EF947F /* UserInfoTableViewCell.h */,
+				D9B33B4320C2290100EF947F /* UserInfoTableViewCell.m */,
+				D9B33B4520C2291E00EF947F /* UserInfoTableViewCell.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		F8BE9048B85F1CBB3D14E0A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27DAE1CFEE296945A5ECE819 /* libPods-wag-project.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9B33B1320C1FEB500EF947F /* wag-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B33B2A20C1FEB600EF947F /* Build configuration list for PBXNativeTarget "wag-project" */;
+			buildPhases = (
+				99B67BF69CA9068EE0124178 /* [CP] Check Pods Manifest.lock */,
+				D9B33B1020C1FEB500EF947F /* Sources */,
+				D9B33B1120C1FEB500EF947F /* Frameworks */,
+				D9B33B1220C1FEB500EF947F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wag-project";
+			productName = "wag-project";
+			productReference = D9B33B1420C1FEB500EF947F /* wag-project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B33B0C20C1FEB400EF947F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "DInh Ho";
+				TargetAttributes = {
+					D9B33B1320C1FEB500EF947F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = D9B33B0F20C1FEB400EF947F /* Build configuration list for PBXProject "wag-project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9B33B0B20C1FEB400EF947F;
+			productRefGroup = D9B33B1520C1FEB500EF947F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B33B1320C1FEB500EF947F /* wag-project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B33B1220C1FEB500EF947F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957497620C2A7430048FE14 /* Localizable.strings in Resources */,
+				D9B33B4620C2291E00EF947F /* UserInfoTableViewCell.xib in Resources */,
+				D9B33B2420C1FEB600EF947F /* LaunchScreen.storyboard in Resources */,
+				D9B33B2120C1FEB600EF947F /* Assets.xcassets in Resources */,
+				D9B33B1F20C1FEB500EF947F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99B67BF69CA9068EE0124178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wag-project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B33B1020C1FEB500EF947F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B33B2720C1FEB600EF947F /* main.m in Sources */,
+				D9B33B3120C20BF700EF947F /* UsersTableViewController.m in Sources */,
+				D9B33B3D20C21B6D00EF947F /* StackOverflowAPIClient.m in Sources */,
+				D9B33B1920C1FEB500EF947F /* AppDelegate.m in Sources */,
+				D9B33B3920C212CB00EF947F /* UserInfo.m in Sources */,
+				D9B33B4420C2290100EF947F /* UserInfoTableViewCell.m in Sources */,
+				D9B33B3620C20DAE00EF947F /* BadgeCount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9B33B1D20C1FEB500EF947F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B33B1E20C1FEB500EF947F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9B33B2220C1FEB600EF947F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B33B2320C1FEB600EF947F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9B33B2820C1FEB600EF947F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9B33B2920C1FEB600EF947F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9B33B2B20C1FEB600EF947F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9D90E74F66F29ABF36A2CF /* Pods-wag-project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GFQDG736W;
+				INFOPLIST_FILE = "wag-project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dinh.Ho.wag-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9B33B2C20C1FEB600EF947F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903884C4CE4AB84BBE45F9BD /* Pods-wag-project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GFQDG736W;
+				INFOPLIST_FILE = "wag-project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dinh.Ho.wag-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B33B0F20C1FEB400EF947F /* Build configuration list for PBXProject "wag-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B33B2820C1FEB600EF947F /* Debug */,
+				D9B33B2920C1FEB600EF947F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B33B2A20C1FEB600EF947F /* Build configuration list for PBXNativeTarget "wag-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B33B2B20C1FEB600EF947F /* Debug */,
+				D9B33B2C20C1FEB600EF947F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B33B0C20C1FEB400EF947F /* Project object */;
+}
